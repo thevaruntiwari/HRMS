@@ -95,6 +95,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AttendanceRegister\" />
+    <Folder Include="LeaveApplication\" />
+    <Folder Include="Login\" />
+    <Folder Include="Model\" />
+    <Folder Include="Overview\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
