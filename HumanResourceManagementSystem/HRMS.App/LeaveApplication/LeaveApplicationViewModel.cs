@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HRMS.App.LeaveApplication
 {
-    class LeaveApplicationViewModel
+    public class LeaveApplicationViewModel
     {
     }
 }

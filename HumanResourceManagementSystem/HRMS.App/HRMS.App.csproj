@@ -97,6 +97,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Address.cs" />
+    <Compile Include="Model\Employee.cs" />
     <Compile Include="Overview\OverviewView.xaml.cs">
       <DependentUpon>OverviewView.xaml</DependentUpon>
     </Compile>
@@ -128,7 +130,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
+    <ProjectReference Include="..\HRMS.Core\HRMS.Core.csproj">
+      <Project>{09f7febf-febf-478b-b5b9-d0b0670d975d}</Project>
+      <Name>HRMS.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

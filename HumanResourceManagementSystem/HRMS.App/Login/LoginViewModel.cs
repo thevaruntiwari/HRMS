@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HRMS.App.Login
 {
-    class LoginViewModel
+    public class LoginViewModel
     {
     }
 }
